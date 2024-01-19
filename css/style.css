@@ -1,0 +1,91 @@
+/* Estilos generales para todo el cuerpo de la página */
+body {
+    background-color: black;
+    font-family: Arial, sans-serif; /* Define la tipografía */
+    line-height: 1.6; /* Espaciado entre líneas */
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para el encabezado (header) */
+header {
+    background-color: #3f3737; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    padding: 10px 0; /* Espaciado interno */
+}
+
+/* Estilos para la navegación (nav) */
+nav {
+    background-color: #c44545; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Estilos para la lista de navegación */
+nav ul {
+    list-style-type: none; /* Elimina los estilos de lista predeterminados */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Distribuye los elementos de la lista horizontal */   
+    
+}
+
+/* Estilos para los elementos de la lista */
+nav ul li {
+     /* padding: 30px; Espaciado interno */
+     margin-left: 25px;
+     margin-right: 25px;
+}
+
+/* Estilos para los enlaces */
+nav ul li a {
+    color: rgb(128, 243, 176); /* Color del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+.imagenfondo {
+    background-image: url(../img/Que-es-CSS-y-para-que-sirve.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilos para la sección (section) y el artículo (article) */
+section, article { 
+    padding: 50px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */    
+}
+
+/* Estilos para el pie de página (footer) */
+footer {
+    background-color: #f04e4e; /* Color de fondo */
+    color: rgb(12, 12, 12); /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    padding: 10px 0; /* Espaciado interno */
+    bottom: 0; /* Ubicación en la parte inferior */
+    width: 100%; /* Ancho completo */
+}
+
+@media(max-width: 700px) {
+    .navegacion {
+        background-color: #1f4dcc; /* Color de fondo */
+        color: #fff; /* Color del texto */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }    
+
+    .navegacionul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+}
+
+
